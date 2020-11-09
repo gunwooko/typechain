@@ -3,7 +3,8 @@
         "module":"CommonJS",
         "target": "ES2015",
         "sourceMap": true,
+        "outDir": "dist" // 모든 컴파일된 파일은 이곳으로 보내지게 된다. 
     },
-    "include": ["index.ts"],
+    "include": ["src/**/*"], // 모든 ts 파일은 src로 들어가게 된다. 
     "exclude": ["node_modules"],
 }
