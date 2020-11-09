@@ -13,3 +13,8 @@ Learning Typescript by making Blockchain with it
 ## Set TS up
 
 Look at <a href='tsconfig.json'>tsconfig.json</a>
+
+## The nodemon for TypeScript
+
+`npm install tsc-watch --save-dev`
+https://www.npmjs.com/package/tsc-watch
